@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>For You 💗</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <main class="wrap">
+    <!-- VIDEO -->
+    <section id="videoSection" class="card active">
+      <h1>Hey you 💕</h1>
+      <p class="subtitle">I made something… press play</p>
+
+      <video id="video" controls playsinline>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+
+      <button id="toAudio" class="btn hidden">Okay, next ✨</button>
+    </section>
+
+    <!-- AUDIO -->
+    <section id="audioSection" class="card">
+      <h1>Now listen 🎧</h1>
+      <p class="subtitle">It’s just me, talking to you</p>
+
+      <audio id="audio" controls>
+        <source src="audio.mp3" type="audio/mpeg" />
+      </audio>
+
+      <button id="finish" class="btn hidden">One last thing 💌</button>
+    </section>
+
+    <!-- FINAL -->
+    <section id="finalSection" class="card final">
+      <h1 class="final-text">Sayonara, Amora 🌸</h1>
+      <p class="final-sub">until we meet again</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
